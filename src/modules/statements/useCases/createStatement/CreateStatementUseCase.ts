@@ -1,5 +1,5 @@
+import 'reflect-metadata';
 import { inject, injectable } from "tsyringe";
-
 import { IUsersRepository } from "../../../users/repositories/IUsersRepository";
 import { IStatementsRepository } from "../../repositories/IStatementsRepository";
 import { CreateStatementError } from "./CreateStatementError";
